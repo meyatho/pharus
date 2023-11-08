@@ -1,0 +1,159 @@
+/*  cores do site
+    #A16948 bege escuro
+    #FFC6A6 bege
+    #EDAA82 bege meio rosa
+    #155453 verde água escurão
+    #38A1A0 verde água escuro
+    #82EDED verde água claro
+    #201D1D preto
+    #F1F1F1 branco (mais suave)
+*/
+
+/*CSS dos textos do site + coisas básicas do site*/
+
+h1{
+    text-align: justify;
+    font-size: 75px;
+    font-weight: 40;
+    color: #F1F1F1;
+    font-weight: 100;
+    font-family: 'Geologica', sans-serif;
+}
+
+h2{
+    text-align: justify;
+    font-size: 50px;
+    font-weight: 40;
+    color: #F1F1F1;
+    font-weight: 100;
+    font-family: 'Geologica', sans-serif;
+}
+
+h3{
+    text-align: justify;
+    font-size: 30px;
+    font-weight: 40;
+    color: #F1F1F1;
+    font-weight: 100;
+    font-family: 'Geologica', sans-serif;
+}
+
+h6{
+    text-align: justify;
+    font-size: 25px;
+    color: #F1F1F1;
+    font-weight: 100;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(29, 28, 28);
+}
+
+/* barra de navegação + header*/
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 0;
+    background-color: black;
+    align-items: center;
+}
+
+header img{
+    height: 10vh;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    margin: 5vh;
+}
+
+.container h1{
+    padding: 10vh 10vw 10vh 5vw;
+}
+
+.container h2{
+    padding: 10vh 2vw 10vh 5vw;
+}
+
+.container h3{
+    padding: 10vh 5vw 10vh 5vw;
+}
+
+iframe{
+    height: 50vh;
+    width: 110vw;
+}
+
+.barra-amarela{
+    background-color: yellow;
+    height: 2px;
+    margin: -2vh 10vw 2vh 10vw;
+    border-radius: 10px;
+
+}
+
+.container-valores{
+    display: flex;
+    flex-direction: column;
+    margin: 5vh;
+}
+
+.container-valores h2{
+    margin-left: 20vw;
+    font-size: 70px;
+}
+
+.container-valores h3{
+    margin-left: 30vw;
+    font-size: 40px;
+}
+img{
+    height: 30vh;
+    border-radius: 50px;
+    margin-right: 5vw;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100%;
+    background-color: #FFE151;
+}
+
+footer h4{
+    margin: auto auto;
+    font-size: 15px;
+    font-weight: 100;
+    color: black;
+}
+
+footer a{
+    color: black;
+}
+
+.container-footer{
+    height: 10vh;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-footer h4{
+    margin: auto 5vw auto auto;
+}
+
